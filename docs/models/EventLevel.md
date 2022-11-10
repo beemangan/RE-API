@@ -1,4 +1,4 @@
-# openapi_client.model.event_level.EventLevel
+# rec.model.event_level.EventLevel
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

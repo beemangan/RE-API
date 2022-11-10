@@ -1,4 +1,4 @@
-# openapi_client.model.team_award_winner.TeamAwardWinner
+# rec.model.team_award_winner.TeamAwardWinner
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

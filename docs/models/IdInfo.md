@@ -1,4 +1,4 @@
-# openapi_client.model.id_info.IdInfo
+# rec.model.id_info.IdInfo
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

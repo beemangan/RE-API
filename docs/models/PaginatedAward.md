@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_award.PaginatedAward
+# rec.model.paginated_award.PaginatedAward
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

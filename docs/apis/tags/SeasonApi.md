@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# openapi_client.apis.tags.season_api.SeasonApi
+# rec.apis.tags.season_api.SeasonApi
 
 All URIs are relative to *https://www.robotevents.com/api/v2*
 
@@ -21,13 +21,13 @@ Gets a List of Events for a given Season
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import season_api
-from openapi_client.model.paginated_event import PaginatedEvent
+import rec
+from rec.apis.tags import season_api
+from rec.model.paginated_event import PaginatedEvent
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -37,11 +37,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = season_api.SeasonApi(api_client)
 
@@ -57,7 +57,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling SeasonApi->season_get_events: %s\n" % e)
 
     # example passing only optional values
@@ -83,7 +83,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling SeasonApi->season_get_events: %s\n" % e)
 ```
 ### Parameters
@@ -211,13 +211,13 @@ Gets a single Season
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import season_api
-from openapi_client.model.season import Season
+import rec
+from rec.apis.tags import season_api
+from rec.model.season import Season
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -227,11 +227,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = season_api.SeasonApi(api_client)
 
@@ -244,7 +244,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling SeasonApi->season_get_season: %s\n" % e)
 ```
 ### Parameters
@@ -309,13 +309,13 @@ Gets a List of Seasons
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import season_api
-from openapi_client.model.paginated_season import PaginatedSeason
+import rec
+from rec.apis.tags import season_api
+from rec.model.paginated_season import PaginatedSeason
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -325,11 +325,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = season_api.SeasonApi(api_client)
 
@@ -353,7 +353,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling SeasonApi->season_get_seasons: %s\n" % e)
 ```
 ### Parameters

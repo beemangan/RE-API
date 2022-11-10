@@ -1,4 +1,4 @@
-# openapi_client.model.page_meta.PageMeta
+# rec.model.page_meta.PageMeta
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

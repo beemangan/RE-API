@@ -1,4 +1,4 @@
-# openapi_client.model.division.Division
+# rec.model.division.Division
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

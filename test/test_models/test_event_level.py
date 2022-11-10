@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.event_level import EventLevel
-from openapi_client import configuration
+import rec
+from rec.model.event_level import EventLevel
+from rec import configuration
 
 
 class TestEventLevel(unittest.TestCase):

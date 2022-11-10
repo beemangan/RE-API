@@ -11,9 +11,9 @@ from unittest.mock import patch
 
 import urllib3
 
-import openapi_client
-from openapi_client.paths.events_id_divisions_div_rankings import get  # noqa: E501
-from openapi_client import configuration, schemas, api_client
+import rec
+from rec.paths.events_id_divisions_div_rankings import get  # noqa: E501
+from rec import configuration, schemas, api_client
 
 from .. import ApiTestMixin
 

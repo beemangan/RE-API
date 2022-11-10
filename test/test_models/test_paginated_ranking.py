@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.paginated_ranking import PaginatedRanking
-from openapi_client import configuration
+import rec
+from rec.model.paginated_ranking import PaginatedRanking
+from rec import configuration
 
 
 class TestPaginatedRanking(unittest.TestCase):

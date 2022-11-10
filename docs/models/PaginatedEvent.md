@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_event.PaginatedEvent
+# rec.model.paginated_event.PaginatedEvent
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.paginated_award import PaginatedAward
-from openapi_client import configuration
+import rec
+from rec.model.paginated_award import PaginatedAward
+from rec import configuration
 
 
 class TestPaginatedAward(unittest.TestCase):

@@ -1,4 +1,4 @@
-# openapi_client.model.team.Team
+# rec.model.team.Team
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

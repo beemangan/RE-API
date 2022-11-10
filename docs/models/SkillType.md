@@ -1,4 +1,4 @@
-# openapi_client.model.skill_type.SkillType
+# rec.model.skill_type.SkillType
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

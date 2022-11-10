@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.event_type import EventType
-from openapi_client import configuration
+import rec
+from rec.model.event_type import EventType
+from rec import configuration
 
 
 class TestEventType(unittest.TestCase):

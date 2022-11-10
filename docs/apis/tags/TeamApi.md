@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# openapi_client.apis.tags.team_api.TeamApi
+# rec.apis.tags.team_api.TeamApi
 
 All URIs are relative to *https://www.robotevents.com/api/v2*
 
@@ -25,13 +25,13 @@ Gets a List of Awards that a given Team has received
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import team_api
-from openapi_client.model.paginated_award import PaginatedAward
+import rec
+from rec.apis.tags import team_api
+from rec.model.paginated_award import PaginatedAward
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -41,11 +41,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = team_api.TeamApi(api_client)
 
@@ -61,7 +61,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_awards: %s\n" % e)
 
     # example passing only optional values
@@ -82,7 +82,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_awards: %s\n" % e)
 ```
 ### Parameters
@@ -181,13 +181,13 @@ Gets a List of Events that a given Team has attended
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import team_api
-from openapi_client.model.paginated_event import PaginatedEvent
+import rec
+from rec.apis.tags import team_api
+from rec.model.paginated_event import PaginatedEvent
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -197,11 +197,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = team_api.TeamApi(api_client)
 
@@ -217,7 +217,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_events: %s\n" % e)
 
     # example passing only optional values
@@ -243,7 +243,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_events: %s\n" % e)
 ```
 ### Parameters
@@ -371,13 +371,13 @@ Gets a List of Matches that a given Team has played in
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import team_api
-from openapi_client.model.paginated_match import PaginatedMatch
+import rec
+from rec.apis.tags import team_api
+from rec.model.paginated_match import PaginatedMatch
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -387,11 +387,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = team_api.TeamApi(api_client)
 
@@ -407,7 +407,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_matches: %s\n" % e)
 
     # example passing only optional values
@@ -437,7 +437,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_matches: %s\n" % e)
 ```
 ### Parameters
@@ -575,13 +575,13 @@ Gets a List of Rankings for a given Team
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import team_api
-from openapi_client.model.paginated_ranking import PaginatedRanking
+import rec
+from rec.apis.tags import team_api
+from rec.model.paginated_ranking import PaginatedRanking
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -591,11 +591,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = team_api.TeamApi(api_client)
 
@@ -611,7 +611,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_rankings: %s\n" % e)
 
     # example passing only optional values
@@ -635,7 +635,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_rankings: %s\n" % e)
 ```
 ### Parameters
@@ -747,13 +747,13 @@ Gets a List of Skills runs that a given Team has performed
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import team_api
-from openapi_client.model.paginated_skill import PaginatedSkill
+import rec
+from rec.apis.tags import team_api
+from rec.model.paginated_skill import PaginatedSkill
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -763,11 +763,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = team_api.TeamApi(api_client)
 
@@ -783,7 +783,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_skills: %s\n" % e)
 
     # example passing only optional values
@@ -807,7 +807,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_skills: %s\n" % e)
 ```
 ### Parameters
@@ -919,14 +919,14 @@ Gets a Single Team
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import team_api
-from openapi_client.model.team import Team
-from openapi_client.model.error import Error
+import rec
+from rec.apis.tags import team_api
+from rec.model.team import Team
+from rec.model.error import Error
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -936,11 +936,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = team_api.TeamApi(api_client)
 
@@ -953,7 +953,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_team: %s\n" % e)
 ```
 ### Parameters
@@ -1032,13 +1032,13 @@ Gets a List of Teams
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import team_api
-from openapi_client.model.paginated_team import PaginatedTeam
+import rec
+from rec.apis.tags import team_api
+from rec.model.paginated_team import PaginatedTeam
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -1048,11 +1048,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = team_api.TeamApi(api_client)
 
@@ -1084,7 +1084,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling TeamApi->team_get_teams: %s\n" % e)
 ```
 ### Parameters

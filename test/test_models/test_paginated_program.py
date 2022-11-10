@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.paginated_program import PaginatedProgram
-from openapi_client import configuration
+import rec
+from rec.model.paginated_program import PaginatedProgram
+from rec import configuration
 
 
 class TestPaginatedProgram(unittest.TestCase):

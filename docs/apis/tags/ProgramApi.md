@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# openapi_client.apis.tags.program_api.ProgramApi
+# rec.apis.tags.program_api.ProgramApi
 
 All URIs are relative to *https://www.robotevents.com/api/v2*
 
@@ -20,13 +20,13 @@ Find a single Program by ID
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import program_api
-from openapi_client.model.program import Program
+import rec
+from rec.apis.tags import program_api
+from rec.model.program import Program
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -36,11 +36,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = program_api.ProgramApi(api_client)
 
@@ -53,7 +53,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling ProgramApi->program_get_program: %s\n" % e)
 ```
 ### Parameters
@@ -118,13 +118,13 @@ Gets a List of Programs
 
 * Bearer (JWT) Authentication (bearerAuth):
 ```python
-import openapi_client
-from openapi_client.apis.tags import program_api
-from openapi_client.model.paginated_program import PaginatedProgram
+import rec
+from rec.apis.tags import program_api
+from rec.model.paginated_program import PaginatedProgram
 from pprint import pprint
 # Defining the host is optional and defaults to https://www.robotevents.com/api/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     host = "https://www.robotevents.com/api/v2"
 )
 
@@ -134,11 +134,11 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = rec.Configuration(
     access_token = 'YOUR_BEARER_TOKEN'
 )
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with rec.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = program_api.ProgramApi(api_client)
 
@@ -153,7 +153,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             query_params=query_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except rec.ApiException as e:
         print("Exception when calling ProgramApi->program_get_programs: %s\n" % e)
 ```
 ### Parameters

@@ -1,4 +1,4 @@
-# openapi_client.model.match_obj.MatchObj
+# rec.model.match_obj.MatchObj
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

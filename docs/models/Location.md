@@ -1,4 +1,4 @@
-# openapi_client.model.location.Location
+# rec.model.location.Location
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

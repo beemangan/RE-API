@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.grade import Grade
-from openapi_client import configuration
+import rec
+from rec.model.grade import Grade
+from rec import configuration
 
 
 class TestGrade(unittest.TestCase):

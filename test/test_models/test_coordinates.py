@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.coordinates import Coordinates
-from openapi_client import configuration
+import rec
+from rec.model.coordinates import Coordinates
+from rec import configuration
 
 
 class TestCoordinates(unittest.TestCase):

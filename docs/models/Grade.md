@@ -1,4 +1,4 @@
-# openapi_client.model.grade.Grade
+# rec.model.grade.Grade
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

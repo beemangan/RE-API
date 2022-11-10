@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_skill.PaginatedSkill
+# rec.model.paginated_skill.PaginatedSkill
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.season.Season
+# rec.model.season.Season
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

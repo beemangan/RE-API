@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_team.PaginatedTeam
+# rec.model.paginated_team.PaginatedTeam
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

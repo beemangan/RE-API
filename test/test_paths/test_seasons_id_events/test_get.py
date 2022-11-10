@@ -11,9 +11,9 @@ from unittest.mock import patch
 
 import urllib3
 
-import openapi_client
-from openapi_client.paths.seasons_id_events import get  # noqa: E501
-from openapi_client import configuration, schemas, api_client
+import rec
+from rec.paths.seasons_id_events import get  # noqa: E501
+from rec import configuration, schemas, api_client
 
 from .. import ApiTestMixin
 

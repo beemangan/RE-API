@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.page_meta import PageMeta
-from openapi_client import configuration
+import rec
+from rec.model.page_meta import PageMeta
+from rec import configuration
 
 
 class TestPageMeta(unittest.TestCase):

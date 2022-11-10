@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.division import Division
-from openapi_client import configuration
+import rec
+from rec.model.division import Division
+from rec import configuration
 
 
 class TestDivision(unittest.TestCase):

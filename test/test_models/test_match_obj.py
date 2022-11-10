@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.match_obj import MatchObj
-from openapi_client import configuration
+import rec
+from rec.model.match_obj import MatchObj
+from rec import configuration
 
 
 class TestMatchObj(unittest.TestCase):

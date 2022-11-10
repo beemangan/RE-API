@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_season.PaginatedSeason
+# rec.model.paginated_season.PaginatedSeason
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

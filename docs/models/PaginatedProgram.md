@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_program.PaginatedProgram
+# rec.model.paginated_program.PaginatedProgram
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

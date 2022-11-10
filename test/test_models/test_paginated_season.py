@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.paginated_season import PaginatedSeason
-from openapi_client import configuration
+import rec
+from rec.model.paginated_season import PaginatedSeason
+from rec import configuration
 
 
 class TestPaginatedSeason(unittest.TestCase):

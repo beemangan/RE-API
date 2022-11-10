@@ -1,4 +1,4 @@
-# openapi_client.model.coordinates.Coordinates
+# rec.model.coordinates.Coordinates
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

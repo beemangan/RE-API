@@ -1,4 +1,4 @@
-# openapi_client.model.program.Program
+# rec.model.program.Program
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_ranking.PaginatedRanking
+# rec.model.paginated_ranking.PaginatedRanking
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

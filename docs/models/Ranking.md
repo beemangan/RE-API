@@ -1,4 +1,4 @@
-# openapi_client.model.ranking.Ranking
+# rec.model.ranking.Ranking
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

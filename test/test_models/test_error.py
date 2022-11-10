@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.error import Error
-from openapi_client import configuration
+import rec
+from rec.model.error import Error
+from rec import configuration
 
 
 class TestError(unittest.TestCase):

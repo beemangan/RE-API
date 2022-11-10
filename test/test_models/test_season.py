@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.season import Season
-from openapi_client import configuration
+import rec
+from rec.model.season import Season
+from rec import configuration
 
 
 class TestSeason(unittest.TestCase):

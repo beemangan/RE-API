@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.alliance import Alliance
-from openapi_client import configuration
+import rec
+from rec.model.alliance import Alliance
+from rec import configuration
 
 
 class TestAlliance(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.team_award_winner import TeamAwardWinner
-from openapi_client import configuration
+import rec
+from rec.model.team_award_winner import TeamAwardWinner
+from rec import configuration
 
 
 class TestTeamAwardWinner(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.skill import Skill
-from openapi_client import configuration
+import rec
+from rec.model.skill import Skill
+from rec import configuration
 
 
 class TestSkill(unittest.TestCase):

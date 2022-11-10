@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_match.PaginatedMatch
+# rec.model.paginated_match.PaginatedMatch
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

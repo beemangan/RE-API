@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.paginated_match import PaginatedMatch
-from openapi_client import configuration
+import rec
+from rec.model.paginated_match import PaginatedMatch
+from rec import configuration
 
 
 class TestPaginatedMatch(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.id_info import IdInfo
-from openapi_client import configuration
+import rec
+from rec.model.id_info import IdInfo
+from rec import configuration
 
 
 class TestIdInfo(unittest.TestCase):

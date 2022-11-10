@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.ranking import Ranking
-from openapi_client import configuration
+import rec
+from rec.model.ranking import Ranking
+from rec import configuration
 
 
 class TestRanking(unittest.TestCase):
