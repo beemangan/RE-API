@@ -76,7 +76,6 @@ class Configuration(object):
       string values to replace variables in templated server configuration.
       The validation of enums is performed for variables with defined enum values before.
 
-    :Example:
     """
 
     _default = None
