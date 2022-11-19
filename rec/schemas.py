@@ -196,7 +196,7 @@ class classproperty:
 class NoneClass(Singleton):
     @classproperty
     def NONE(cls):
-        return cls(None)
+        return str(None) # Type handling null fields in API responses 
 
     def __bool__(self) -> bool:
         return False
