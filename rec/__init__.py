@@ -26,3 +26,6 @@ from rec.exceptions import ApiTypeError
 from rec.exceptions import ApiValueError
 from rec.exceptions import ApiKeyError
 from rec.exceptions import ApiException
+
+# import connector
+from rec.wrappers import Connector
